@@ -1,6 +1,6 @@
 /** ==========  PINK BOX =========== **/
 .pink-box { 
-    border: 3px solid lightPink;
+    border: 3px solid #F2C4C8;
     font-family: 'Mulish', sans-serif;
     margin: 30px;
     padding: 30px;
@@ -9,6 +9,8 @@
 
 .pink-box p{
     text-align: center;
+    font-weight: 1000;
+
 }
 
 .pink-box-title {
@@ -22,6 +24,10 @@
     float: left;
 }
 
+.pink-box p.thick {
+    font-weight: 200;
+  }
+
 /** ==========  CUSTOM CSS =========== **/
 .tile.is-parent {
     padding: 0px;
@@ -29,6 +35,7 @@
 
 .box {
     box-shadow: none;
+    background-color: #ffffff00;
 }
 
 /** ==========  NAVIGATION BAR =========== **/
@@ -62,4 +69,22 @@ footer{
     text-align: center;
     margin: 30px;
 
+}
+.bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
+.avatar{ 
+    height:auto;
+    max-width: 80%;
+    background-color: #ffd8e4;
+    border: solid 5px LightPink;
+    margin-left: 45px;
 }
